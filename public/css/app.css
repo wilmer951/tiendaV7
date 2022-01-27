@@ -1,9 +1,7 @@
 @import url(http://fonts.googleapis.com/css?family=Roboto:400,300,400italic,500,700,100);
 @import url(http://fonts.googleapis.com/css?family=Open+Sans:400,800,300,600,700);
 @import url(http://fonts.googleapis.com/css?family=Abel);
-
-
- /* GLOBAL VAR*/
+/* GLOBAL VAR*/
 
 :root {
 
@@ -299,10 +297,7 @@ align-items: flex-end;
   line-height: 0;
   display: block;
   opacity: 0;
-   -webkit-transition: 300ms;
-  -moz-transition: 300ms;
-    -o-transition: 300ms;
-    transition: 300ms;
+  transition: 300ms;
 }
 
 .overlay-icon i {
@@ -448,3 +443,4 @@ align-items: flex-end;
   font-style: italic;
   text-decoration: underline;
 }
+
