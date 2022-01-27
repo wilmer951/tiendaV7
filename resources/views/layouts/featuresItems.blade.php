@@ -140,6 +140,11 @@
 
     <h5 class="text-center mb-4">PRODUCT RECOMEND</h5>
 
+    <div class="col-12 text-center" style="width: 100%; height:100px;">
+
+        <h1> Espacio para slider</h1>
+    </div>
+
 </div>
 <!-- RECOMEND PRODUCTS -->
 

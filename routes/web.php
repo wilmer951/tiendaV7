@@ -15,3 +15,5 @@ use App\Http\Controllers\Controller_routes;
 */
 
 Route::get ('/',[Controller_routes::class,'index'])->name('home');
+Route::get ('shop',[Controller_routes::class,'shop'])->name('shop');
+Route::get ('contact',[Controller_routes::class,'contact'])->name('contact');

@@ -6,7 +6,7 @@
 :root {
 
   /* original  #FDB764*/
-    --original: #FDB764 ;
+    --original: blue ;
   
     --white: #ffffff;
   }
@@ -52,9 +52,10 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .btn:hover, 
-.btn:focus{
-  outline: none;
-  box-shadow: none;
+.btn:active:focus{
+  outline: none !important;
+  text-shadow: none !important;
+  box-shadow: 0 0 2px var(--original) !important;
 }
 
 .navbar-toggle {
@@ -143,7 +144,7 @@ align-items: flex-end;
 }
 
 .productinfo h2{
-	color: #FE980F;
+	color: var(--original);
 	font-family: 'Roboto', sans-serif;
 	font-size: 24px;
 	font-weight: 700;
@@ -172,7 +173,7 @@ align-items: flex-end;
 }
 
 .product-overlay {
-  background:#FE980F;
+  background:var(--original);
   top: 0;
   display: none;
   height: 0;
@@ -201,17 +202,21 @@ align-items: flex-end;
   background:#fff;
   border: 0 none;
   border-radius: 0;
-  color: #FE980F;
+  color: white;
   font-family: 'Roboto', sans-serif;
   font-size: 15px;
   margin-bottom: 25px;
 }
 
-.product-overlay .add-to-cart:hover {
+.product-overlay .add-to-cart:hover{
   background:#fff;
-  color: #FE980F;
+  color: var(--original) !important;
 }
 
+.overlay-content h2{
+
+  color: #fff !important;
+}
 
 .product-overlay p{
   font-family: 'Roboto', sans-serif;
@@ -238,6 +243,7 @@ align-items: flex-end;
 .footer-top .container {
   border-bottom: 1px solid #E0E0DA;
   padding-bottom: 20px;
+  
 }
 
 .companyinfo {
@@ -252,7 +258,7 @@ align-items: flex-end;
 }
 
 .companyinfo h2  span{
-  color:#FE980F;
+  color:var(--original);
 }
 
 .companyinfo p {
@@ -290,7 +296,7 @@ align-items: flex-end;
   top: 0;
   width: 100%;
   height: 61px;
-  background: #FE980F;
+  background: var(--original);
   border-radius: 3px;
   color: #FFF;
   font-size: 20px;
@@ -383,7 +389,7 @@ align-items: flex-end;
 
 .single-widget ul li a:hover{
 	background:none;
-	color:#FE980F;
+	color:var(--original);
 }
 
 
@@ -400,7 +406,7 @@ align-items: flex-end;
 
 
 .searchform button {
-  background: #FE980F;
+  background: var(--original);
   border: medium none;
   border-radius: 0;
   margin-left: -5px;
@@ -415,7 +421,7 @@ align-items: flex-end;
 
 .searchform  button:hover, 
 .searchform  button:focus{
-	background-color:#FE980F;
+	background-color:var(--original);
 }
 
 .searchform p {
@@ -439,7 +445,7 @@ align-items: flex-end;
 }
 
 .footer-bottom p span a {
-  color: #FE980F;
+  color: var(--original);
   font-style: italic;
   text-decoration: underline;
 }

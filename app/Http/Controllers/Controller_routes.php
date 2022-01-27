@@ -13,4 +13,15 @@ class Controller_routes extends Controller
       }
 
 
+      public function shop()
+      {
+          return view('shop');
+      }
+
+      public function contact()
+      {
+          return view('contact');
+      }
+
+
 }

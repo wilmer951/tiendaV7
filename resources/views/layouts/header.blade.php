@@ -31,9 +31,9 @@
 
 
                     <ul class="list-inline">
-                        <li class="list-inline-item"><a class="btn" href="#"> HOME</a></li>
-                        <li class="list-inline-item"><a class="btn" href="#"> SHOP</a></li>
-                        <li class="list-inline-item"><a class="btn" href="#"> CONTACT</a></li>
+                        <li class="list-inline-item"><a class="btn" href="{{ route('home') }}"> HOME</a></li>
+                        <li class="list-inline-item"><a class="btn" href="{{ route('shop') }}"> SHOP</a></li>
+                        <li class="list-inline-item"><a class="btn" href="{{ route('contact') }}"> CONTACT</a></li>
                         
                         
                       </ul>
