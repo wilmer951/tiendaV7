@@ -6,6 +6,11 @@
 
 <div class="container">
 
+<!-- SLIDER PAGE HOME START -->
+@include('layouts.sliderfirst')
+<!-- SLIDER PAGE HOME START -->
+
+
 <div class="row mt-5">
 
     <div class="col col-lg-2 col-sm-12">
@@ -21,7 +26,9 @@
               <!-- VIEW PAGE SHOP-->
                
 
-                <h1>shop</h1>
+                <!-- IMPORT FEACTURES PRODUCTS-->
+                @include('layouts.featuresItems')
+                <!-- IMPORT FEACTURES PRODUCTS-->
 
 
 
